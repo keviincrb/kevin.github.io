@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #1c6796;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;}
+.logo{
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #2f6383
+}
+    
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.header{
+    height: 60vh !important;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #1c6796;
+    padding: auto;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #1c6796;
+    padding: 0 100px;
+    padding: auto;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(25, 126, 220);
+    color: white;
+    text-decoration: none;
+    background:rgb(25, 126, 220) ;
+}
+
+.btn:hover{
+    background: none
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin:0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.dallas {
+    margin-top: 23px;
+}
+
+.sau{
+    padding: 30px;
+    background: #1f1d1d;
+    padding: auto;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 20px;
+    width: 15rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0,0,0,5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #0d72b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+    margin: 3px;
+    line-height: 13px;
+}
+
+.box-container .box p{
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about{
+    background: white;
+    padding: auto;
+    margin-top: 150px;;
+    margin-bottom: 150px;
+
+}
+
+.price{
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    background: #101010;
+    padding: auto;
+}
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: auto;
+}
+
+.fotologo{
+    float: left;
+    height:100px ;
+    width: 100px;
+    padding-left: 50px;
+}
+
+.fotocamisa{
+    float: left;
+    height:100px ;
+    width: 100px;
+    padding-left: 50px;
+}
+
+.fotobotas{
+    float: left;
+    height:100px ;
+    width: 100px;
+    padding-left: 50px;
+}
+
+.doncic-madrid{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+
+.video{
+    width: 720px;
+    height: 480px;
+    padding-bottom: 50px;
+}
+
+.titlemadrid{
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #1c6796;
+    margin-top: 250px;
+}
+
+.titlenba{
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #1c6796;
+    margin-top: 250px;
+    padding-bottom: 100px;
+}
+
+.saunba{
+    padding: 60px;
+    background: #1f1d1d;
+    padding: auto;
+     
+}
+
+.contentt{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    
+}
+
+.contenttt{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
